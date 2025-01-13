@@ -6,7 +6,7 @@ Der vil løbende blive tilføjet funktionalitet til dette API og Angular projekt
 
 ## Teknologier
 
-ASP.NET Web API
-ASP.NET Core Identity autentifikation
-Entity Framework
-Postgres SQL database
+- ASP.NET Web API
+- ASP.NET Core Identity autentifikation
+- Entity Framework
+- Postgres SQL database
