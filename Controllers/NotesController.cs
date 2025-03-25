@@ -45,7 +45,7 @@ public class NotesController : ControllerBase
 
         if (note.UserId != userId)
         {
-            NotFound();
+            return NotFound();
         }
 
         return NoteToDto(note);
