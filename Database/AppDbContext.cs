@@ -1,11 +1,10 @@
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using NotesAPI.Models;
 
 namespace NotesAPI.Database;
 
-public class AppDbContext(DbContextOptions<AppDbContext> options) : IdentityDbContext<IdentityUser>(options)
+public class AppDbContext(DbContextOptions<AppDbContext> options) : IdentityDbContext<NotesUser>(options)
 {
     public DbSet<Note> Notes { get; set; } = null!;
 
